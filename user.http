@@ -1,0 +1,18 @@
+@baseUrl=https://0z4j3a7r99.execute-api.us-east-1.amazonaws.com
+@baseUrl=http://localhost:5000
+
+
+### Create User
+POST {{baseUrl}}/users
+Content-Type: application/json
+
+{
+  "userId": "1",
+  "name": "tuyen test 100"
+}
+###
+
+### View User Detail
+GET {{baseUrl}}/users/1
+
+###
